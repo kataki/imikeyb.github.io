@@ -59,10 +59,10 @@ Pre-Depends: dpkg, sudo, com.ps.letmeblock
 Depends: mobilesubstrate
 Conflicts: com.ceadd.blockyou10, com.ceadd.blockyou11, com.ceadd.blockyou12, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblockermegaipv4, com.thireus.untrustedhostsblockermega, com.thireus.untrustedhostsblockerexperimental
 Filename: ./debs/net.imikeyb.tutuboxhelper_1.080120_iphoneos-arm.deb
-Size: 56044
-MD5sum: 18ecb0de3cfdf96a47afc6c9989dba1c
-SHA1: 0a9faad7115b21ed32cb974c4c9cb683b7b10d9d
-SHA256: e3018ee4f61bbad818c61b7c7b9bccb8a270c2948865e5ff536012b22ad9d02f
+Size: 56068
+MD5sum: 5d3fa95386d9ef8b134af30f8326bc18
+SHA1: e184e4907ef064c94d7ce785d82b02d89facbd06
+SHA256: c39d15db62cbf109ac8cca66d462436c6f4757a22593a6df6595da3a6bc38c28
 Section: Networking
 Description: An all-in-one auto-updating, anti-revoke, ad-blocking solution for TutuBox.
 Author: iMikeyB | SnapHelper
