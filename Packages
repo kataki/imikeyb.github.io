@@ -1,0 +1,72 @@
+Package: com.ps.letmeblock
+Version: 0.0.7.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/com.ps.letmeblock_0.0.7.2_iphoneos-arm.deb
+Size: 6152
+MD5sum: 1f35f16e5460e7e563949f300b9a9768
+SHA1: 0e182a0913a53a0bfbf7fbf1105560eb1ac3c622
+SHA256: 581f6d80704f97d3865374f9e1a595aa2b1e261efc74fc38ba803ca2f8cf9bd3
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
+Package: com.snaphelper.snapbreakfr33
+Version: 1.7.1-sh-1
+Architecture: iphoneos-arm
+Maintainer: u/SnapHelper
+Depends: firmware (>= 10.0), mobilesubstrate, sed
+Conflicts: com.cokepokes.snapdecent, com.cokepokes.libphantom, com.cokepokes.spectre, tv.othman.scothman, tv.othman.scothman.ios11, com.pantsthief.snapchatnoclickbait, com.timecompiler.snapchatlog, com.nathaningraham.snapchatlowpowermodeenabler, com.expetelek.keepsnapchatsignedin, com.chloeeisoaky.luminous, com.neinzedd9.scfiltermover, net.ibrahim.scstorytimer, com.ithegentle.snapcheck, com.bengerard.snapselect, com.yungraj.streaknotify, com.n00neimp0rtant.picarchiver, brexit.chloee.snapcolor, com.cokepokes.PhantomFake, com.cokepokes.phantom, com.s0me1ne.betaatweakdisabler, fr.s0me1ne.betasnapbreak, com.s0me1ne.atweakdisabler, fr.s0me1ne.snapbreak
+Filename: ./debs/snapbreakfr33_1.7.1-sh-1_iphoneos-arm.deb
+Size: 6463920
+MD5sum: cc6adc77c4667711084eba7b545f2027
+SHA1: 1afb8cdcb976c48865118e417f264a61bfe978d4
+SHA256: fc944d044dec1a047602cc761b064521de19916948e5bc1716c66163f3e2ed05
+Section: Tweaks
+Priority: optional
+Description: IMPORTANT! PLEASE FOLLOW THE INSTALLATION TUTORIAL ON R/SNAPCHATTWEAKS BEFORE INSTALLING! SnapBreakFR33 from u/SnapHelper is a FREE Snapchat tweak for your Apple device. Break the limits of Snapchat! Make Snap sexy with DARK MODE! Save snaps to the Gallery or to a user folder, replay it at will until you decide to mark as seen, get geo-filters from all around the world by changing your location, increase your privacy by hiding your online presence in the chat window, screenshot and screen record at will as well as view stories anonymously... All that and more!
+Author: u/SnapHelper
+Dev: u/SnapHelper
+Name: SnapBreakFR33 from u/SnapHelper
+
+Package: net.imikeyb.issupervisedbegone
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iMikeyB | SnapHelper
+Pre-Depends: dpkg
+Depends: mobilesubstrate
+Filename: ./debs/net.imikeyb.issupervisedbegone_1.0_iphoneos-arm.deb
+Size: 1308
+MD5sum: d70834c9c5d7e9e0a5869cb0df522cbb
+SHA1: 00d782e854c623e781846acecdb33c552fc3e412
+SHA256: f0afd805db8c943c13bd59a9b8c8397cf341a19342a15fedd4cc1d9802266d05
+Section: Tweaks
+Description: A one click solution to remove the “is Supervised” message in Settings after installing TutuBoxHelper + SHAB.
+Author: iMikeyB | SnapHelper
+Depiction: https://imikeyb.github.io/depic/issupervisedbegone.html
+Name: isSupervisedBeGone
+
+Package: net.imikeyb.tutuboxhelper
+Version: 1.080120
+Architecture: iphoneos-arm
+Maintainer: iMikeyB | SnapHelper
+Pre-Depends: dpkg, sudo, com.ps.letmeblock
+Depends: mobilesubstrate
+Conflicts: com.ceadd.blockyou10, com.ceadd.blockyou11, com.ceadd.blockyou12, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblockermegaipv4, com.thireus.untrustedhostsblockermega, com.thireus.untrustedhostsblockerexperimental
+Filename: ./debs/net.imikeyb.tutuboxhelper_1.080120_iphoneos-arm.deb
+Size: 56044
+MD5sum: 18ecb0de3cfdf96a47afc6c9989dba1c
+SHA1: 0a9faad7115b21ed32cb974c4c9cb683b7b10d9d
+SHA256: e3018ee4f61bbad818c61b7c7b9bccb8a270c2948865e5ff536012b22ad9d02f
+Section: Networking
+Description: An all-in-one auto-updating, anti-revoke, ad-blocking solution for TutuBox.
+Author: iMikeyB | SnapHelper
+Depiction: https://imikeyb.github.io/depic/tutuboxhelper.html
+Icon: https://imikeyb.github.io/master/TutuBoxHelper.png
+Name: TutuBoxHelper + SHAB
+
