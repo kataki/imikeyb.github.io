@@ -8,7 +8,7 @@
 //
 // Powered by MYXX FM
 // #1 for Spanglish Hits!
-// A DJ MikeyB Station"
+// A DJ MikeyB Station
 // MYXXfm.com | MYXX-DB | Dallas, TX
 
 function FindProxyForURL(url, host)
@@ -119,7 +119,6 @@ function FindProxyForURL(url, host)
 	shExpMatch(url, "cpcalendars*.*") ||
 	shExpMatch(url, "cpcontacts*-*") ||
 	shExpMatch(url, "cpcontacts*.*") ||
-    shExpMatch(url, "*creativecdn*") ||
 	shExpMatch(url, "iad*-*") ||
 	shExpMatch(url, "iad*.*") ||
 	shExpMatch(url, "logger*-*") ||
@@ -174,14 +173,15 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*buysellads*") || 
     shExpMatch(url, "*conversant*") ||
     shExpMatch(url, "*cqcounter*") ||
+    shExpMatch(url, "*creativecdn*") ||
     shExpMatch(url, "*crittercism*") ||
     shExpMatch(url, "*doubleclick*") ||
     shExpMatch(url, "*doubleverify*") ||
     shExpMatch(url, "*exacttarget*") ||
     shExpMatch(url, "*fastclick*") ||   
     shExpMatch(url, "*googleads*") ||
-    shExpMatch(url, "*googlesyndication*") ||
     shExpMatch(url, "*googleadservices*") ||
+    shExpMatch(url, "*googlesyndication*") ||
     shExpMatch(url, "*hitbox*") ||
     shExpMatch(url, "*infolinks*") ||
     shExpMatch(url, "*intellitxt*") ||
