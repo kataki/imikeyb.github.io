@@ -15,7 +15,7 @@ function FindProxyForURL(url, host)
 
 {
     if (
-	shExpMatch(url, "cnn.com")
+	shExpMatch(url, "*.cnn.com")
     )
     {return "PROXY 8.8.8.8:53";}
 
