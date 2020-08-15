@@ -60,6 +60,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*adlogs*-*") ||
     shExpMatch(url, "*adlogs*.*") ||
     shExpMatch(url, "*adlooxtracking*") ||
+    shExpMatch(url, "*admedit*") ||
     shExpMatch(url, "*admob*-*") ||
     shExpMatch(url, "*admob*.*") ||
     shExpMatch(url, "*adnet*-*") ||
@@ -113,6 +114,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*analytic*.*") ||
     shExpMatch(url, "*banner*-*") ||
     shExpMatch(url, "*banner*.*") ||
+    shExpMatch(url, "*betgorebysson*") ||
     shExpMatch(url, "*bidvertiser*") ||
     shExpMatch(url, "*buysellads*") ||
     shExpMatch(url, "*cdnads*-*") ||
@@ -149,6 +151,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*intellitxt*") ||
     shExpMatch(url, "*iwanttodeliver*") ||
     shExpMatch(url, "*lijit*-*") ||
+    shExpMatch(url, "*lalaping*") ||
     shExpMatch(url, "logger*-*") ||
     shExpMatch(url, "logger*.*") ||
     shExpMatch(url, "logging*-*") ||
@@ -196,6 +199,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*tradedoubler*") ||
     shExpMatch(url, "trk*-*") ||
     shExpMatch(url, "trk*.*") ||
+    shExpMatch(url, "*upgulpinon*") ||        
     shExpMatch(url, "*vibrantmedia*") ||
     shExpMatch(url, "*webads*-*") ||
     shExpMatch(url, "*webads*.*") ||
