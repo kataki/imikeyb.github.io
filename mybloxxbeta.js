@@ -138,14 +138,17 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*crittercism*") ||
     shExpMatch(url, "*doubleclick*") ||
     shExpMatch(url, "*doubleverify*") ||
+    shExpMatch(url, "*eikegolehem*") ||
     shExpMatch(url, "*exacttarget*") ||
     shExpMatch(url, "*fastclick*") ||
     shExpMatch(url, "*googleads*") ||
     shExpMatch(url, "*googleadservices*") ||
     shExpMatch(url, "*googlesyndication*") ||
+    shExpMatch(url, "*graizoah*") ||
     shExpMatch(url, "*hitbox*") ||
     shExpMatch(url, "*iad*-*") ||
     shExpMatch(url, "*iad*.*") ||
+    shExpMatch(url, "*inpagepush*") ||
     shExpMatch(url, "*infolinks*") ||
     shExpMatch(url, "*intellitxt*") ||
     shExpMatch(url, "*iwanttodeliver*") ||
@@ -164,8 +167,10 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*mobileapptracking*") ||
     shExpMatch(url, "*ocsp-*") ||
     shExpMatch(url, "*ocsp.*") ||
+    shExpMatch(url, "*offerimage*") ||        
     shExpMatch(url, "*offers*-*") ||
     shExpMatch(url, "*offers*.*") ||
+    shExpMatch(url, "*onstunkyr*.*") ||        
     shExpMatch(url, "*pagead*-*") ||
     shExpMatch(url, "*pagead*.*") ||
     shExpMatch(url, "*partner*-*") ||
