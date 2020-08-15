@@ -143,6 +143,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*googleadservices*") ||
     shExpMatch(url, "*googlesyndication*") ||
     shExpMatch(url, "*graizoah*") ||
+    shExpMatch(url, "*grooksom*") ||
     shExpMatch(url, "*hitbox*") ||
     shExpMatch(url, "iad*-*") ||
     shExpMatch(url, "iad*.*") ||
