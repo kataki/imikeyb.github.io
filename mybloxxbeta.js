@@ -10,7 +10,6 @@ function FindProxyForURL(url, host)
 
 {
     if (
-    shExpMatch(url, "*ads*.*") ||
     shExpMatch(url, "*-advertising*") ||
     shExpMatch(url, "*.2o7.net") ||
     shExpMatch(url, "*.am15.net") ||
@@ -26,8 +25,8 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*.undertone*") ||
     shExpMatch(url, "*.voodoo*.*") ||
     shExpMatch(url, "*.xiti.com*") ||
-    shExpMatch(url, "*ad-*") ||
-    shExpMatch(url, "*ad.*") ||
+    shExpMatch(url, "ad-*") ||
+    shExpMatch(url, "ad.*") ||
     shExpMatch(url, "*ad0*-*") ||
     shExpMatch(url, "*ad0*.*") ||
     shExpMatch(url, "*ad1*-*") ||
@@ -68,9 +67,8 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*adnetwork*-*") ||
     shExpMatch(url, "*adnetwork*.*") ||
     shExpMatch(url, "*adpushup*") ||
-    shExpMatch(url, "*ads*-*") ||
-    shExpMatch(url, "*ads-*") ||
-    shExpMatch(url, "*ads.*") ||
+    shExpMatch(url, "ads-*") ||
+    shExpMatch(url, "ads.*") ||
     shExpMatch(url, "*ads0*-*") ||
     shExpMatch(url, "*ads0*.*") ||
     shExpMatch(url, "*ads1*-*") ||
@@ -117,18 +115,16 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*banner*.*") ||
     shExpMatch(url, "*bidvertiser*") ||
     shExpMatch(url, "*buysellads*") ||
-    shExpMatch(url, "*cdn*-*") ||
-    shExpMatch(url, "*cdn*.*") ||
     shExpMatch(url, "*cdnads*-*") ||
     shExpMatch(url, "*cdnads*.*") ||
     shExpMatch(url, "*clickserv*.*") ||
     shExpMatch(url, "*clickstats*.*") ||
     shExpMatch(url, "*clicktrack*.*") ||
-    shExpMatch(url, "*collector*-*") ||
-    shExpMatch(url, "*collector*.*") ||
+    shExpMatch(url, "collector*-*") ||
+    shExpMatch(url, "collector*.*") ||
     shExpMatch(url, "*conversant*") ||
-    shExpMatch(url, "*count-*") ||
-    shExpMatch(url, "*count.*") ||
+    shExpMatch(url, "count-*") ||
+    shExpMatch(url, "count.*") ||
     shExpMatch(url, "*cpcalendars*-*") ||
     shExpMatch(url, "*cpcalendars*.*") ||
     shExpMatch(url, "*cpcontacts*-*") ||
@@ -146,19 +142,19 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*googlesyndication*") ||
     shExpMatch(url, "*graizoah*") ||
     shExpMatch(url, "*hitbox*") ||
-    shExpMatch(url, "*iad*-*") ||
-    shExpMatch(url, "*iad*.*") ||
+    shExpMatch(url, "iad*-*") ||
+    shExpMatch(url, "iad*.*") ||
     shExpMatch(url, "*inpagepush*") ||
     shExpMatch(url, "*infolinks*") ||
     shExpMatch(url, "*intellitxt*") ||
     shExpMatch(url, "*iwanttodeliver*") ||
     shExpMatch(url, "*lijit*-*") ||
-    shExpMatch(url, "*logger*-*") ||
-    shExpMatch(url, "*logger*.*") ||
-    shExpMatch(url, "*logging*-*") ||
-    shExpMatch(url, "*logging*.*") ||
-    shExpMatch(url, "*logs*-*") ||
-    shExpMatch(url, "*logs*.*") ||
+    shExpMatch(url, "logger*-*") ||
+    shExpMatch(url, "logger*.*") ||
+    shExpMatch(url, "logging*-*") ||
+    shExpMatch(url, "logging*.*") ||
+    shExpMatch(url, "logs*-*") ||
+    shExpMatch(url, "logs*.*") ||
     shExpMatch(url, "*marketing*-*") ||
     shExpMatch(url, "*marketing*.*") ||
     shExpMatch(url, "*metrics*-*") ||
@@ -195,11 +191,11 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*taboola*") ||
     shExpMatch(url, "*textad*-*") ||
     shExpMatch(url, "*textad*.*") ||
-    shExpMatch(url, "*track*-*") ||
-    shExpMatch(url, "*track*.*") ||
+    shExpMatch(url, "track*-*") ||
+    shExpMatch(url, "track*.*") ||
     shExpMatch(url, "*tradedoubler*") ||
-    shExpMatch(url, "*trk*-*") ||
-    shExpMatch(url, "*trk*.*") ||
+    shExpMatch(url, "trk*-*") ||
+    shExpMatch(url, "trk*.*") ||
     shExpMatch(url, "*vibrantmedia*") ||
     shExpMatch(url, "*webads*-*") ||
     shExpMatch(url, "*webads*.*") ||
