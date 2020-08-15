@@ -9,10 +9,7 @@
 function FindProxyForURL(url, host)
 
 {
-    if (shExpMatch(url, 
-        "cnn.com*") ||
-        "*ocsp.apple.com*") ||
-        "*yahoo.com*")
+    if (shExpMatch(url, "cnn.com*") || "*ocsp.apple.com*") || "*yahoo.com*")
         )
     {return "PROXY 8.8.8.8:53";}
 
