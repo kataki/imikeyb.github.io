@@ -119,6 +119,7 @@ function FindProxyForURL(url, host)
 	shExpMatch(url, "cpcalendars*.*") ||
 	shExpMatch(url, "cpcontacts*-*") ||
 	shExpMatch(url, "cpcontacts*.*") ||
+    shExpMatch(url, "*creativecdn*") ||
 	shExpMatch(url, "iad*-*") ||
 	shExpMatch(url, "iad*.*") ||
 	shExpMatch(url, "logger*-*") ||
@@ -179,6 +180,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*exacttarget*") ||
     shExpMatch(url, "*fastclick*") ||   
     shExpMatch(url, "*googleads*") ||
+    shExpMatch(url, "*googlesyndication*") ||
     shExpMatch(url, "*googleadservices*") ||
     shExpMatch(url, "*hitbox*") ||
     shExpMatch(url, "*infolinks*") ||
