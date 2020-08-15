@@ -1,30 +1,21 @@
-// Credits
-// Thank you to http://pgl.yoyo.org for the list of ad servers.
-// Thank you to saudor on the macrumors for his/her script that inspired this one.
+// MYbloXX
+// 0.081420 by MYXXdev
+// 
+// Powered by MYXX FM
+// #1 for Spanglish Hits!
+// A DJ MikeyB Station
+// MYXXfm.com | MYXX-DB | Dallas, TX
 
-var DESTROY_AD = "PROXY 8.8.8.8:53";
-var ACTUAL_CONTENT = "DIRECT";
-var AD_DOMAIN_BLACKLIST = ["101com.com", "zmedia.com"];
+function FindProxyForURL(url, host)
 
+{
+    if (shExpMatch(url, 
+        "cnn.com*") ||
+        "*ocsp.apple.com*") ||
+        "*yahoo.com*")
+        )
+    {return "PROXY 8.8.8.8:53";}
 
-function FindProxyForURL(url, host) {
-  if (isAnAd(url, host)) {
-    return DESTROY_AD;
-  } else {
-    return ACTUAL_CONTENT;
-  }
-}
+return "DIRECT";
 
-function isAnAd(url, host) {
-  return domainAdMatch(host);
-}
-
-function regexAdMatch(url) {
-  // implement this later
-  return false; //if (shExpMatch(url, "*.ad./*")) return true;
-}
-
-function domainAdMatch(host) {
-  //return AD_DOMAIN_BLACKLIST.some((elem) => dnsDomainIs(host, elem));
-  return true;
 }
