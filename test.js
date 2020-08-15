@@ -4,7 +4,7 @@
 
 var DESTROY_AD = "PROXY 8.8.8.8:53";
 var ACTUAL_CONTENT = "DIRECT";
-var AD_DOMAIN_BLACKLIST = ["101com.com","zmedia.com"];
+var AD_DOMAIN_BLACKLIST = ["101com.com", "zmedia.com"];
 
 
 function FindProxyForURL(url, host) {
