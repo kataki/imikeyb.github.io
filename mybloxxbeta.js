@@ -74,6 +74,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*ads8*") ||
     shExpMatch(url, "*ads9*") ||
     shExpMatch(url, "*adsapi*") ||
+    shExpMatch(url, "*adsatt.*") ||        
     shExpMatch(url, "*adscience*.*") ||
     shExpMatch(url, "*adsdk*") ||
     shExpMatch(url, "*adserv*") ||
@@ -85,7 +86,11 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*advert*") ||
     shExpMatch(url, "*affiliate*") ||
     shExpMatch(url, "*analytic*") ||
-    shExpMatch(url, "*banner*") ||
+    shExpMatch(url, "*banner-*") ||
+    shExpMatch(url, "*banner.*") ||
+    shExpMatch(url, "*banners-*") ||
+    shExpMatch(url, "*banners.*") ||
+    shExpMatch(url, "*bannerserver*") ||
     shExpMatch(url, "*betgorebysson*") ||
     shExpMatch(url, "*bidvertiser*") ||
     shExpMatch(url, "*buysellads*") ||
@@ -97,6 +102,8 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*conversant*") ||
     shExpMatch(url, "count-*") ||
     shExpMatch(url, "count.*") ||
+    shExpMatch(url, "counter-*") ||
+    shExpMatch(url, "counter.*") ||
     shExpMatch(url, "*cpcalendars*") ||
     shExpMatch(url, "*cpcontacts*") ||
     shExpMatch(url, "*cqcounter*") ||
@@ -114,6 +121,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*grooksom*") ||
     shExpMatch(url, "*hitbox*") ||
     shExpMatch(url, "iad.*") ||
+    shExpMatch(url, "iadnet*") ||
     shExpMatch(url, "iads.*") ||
     shExpMatch(url, "*inpagepush*") ||
     shExpMatch(url, "*infolinks*") ||
@@ -127,8 +135,8 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "logging.*") ||
     shExpMatch(url, "logs-*") ||
     shExpMatch(url, "logs.*") ||
-    shExpMatch(url, "*marketing*-*") ||
-    shExpMatch(url, "*marketing*.*") ||
+    shExpMatch(url, "*marketing-*") ||
+    shExpMatch(url, "*marketing.*") ||
     shExpMatch(url, "*metrics*-*") ||
     shExpMatch(url, "*metrics*.*") ||
     shExpMatch(url, "*mobileads*") ||
