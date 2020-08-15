@@ -199,7 +199,8 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*tradedoubler*") ||
     shExpMatch(url, "trk*-*") ||
     shExpMatch(url, "trk*.*") ||
-    shExpMatch(url, "*upgulpinon*") ||        
+    shExpMatch(url, "*upgulpinon*") ||
+    shExpMatch(url, "*ushoofop*") ||       
     shExpMatch(url, "*vibrantmedia*") ||
     shExpMatch(url, "*webads*-*") ||
     shExpMatch(url, "*webads*.*") ||
