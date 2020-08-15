@@ -131,6 +131,7 @@ function FindProxyForURL(url, host)
 	shExpMatch(url, "marketing*.*") ||
 	shExpMatch(url, "metrics*-*") ||
 	shExpMatch(url, "metrics*.*") ||
+    shExpMatch(url, "ocsp.apple.com") ||
 	shExpMatch(url, "ocsp-*") ||
 	shExpMatch(url, "ocsp.*") ||
 	shExpMatch(url, "offers*-*") ||
