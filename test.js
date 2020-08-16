@@ -141,6 +141,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*fluentmobile*") ||
     shExpMatch(url, "*flurry.com*") ||
     shExpMatch(url, "*fractionalmedia*") ||
+    shExpMatch(url, "*fstsrv*") ||
     shExpMatch(url, "*fusepowered*") ||
     shExpMatch(url, "*fwmrm*") ||
     shExpMatch(url, "*getAd*") ||
@@ -225,6 +226,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*postlnk*") ||
     shExpMatch(url, "*propellerads*") ||
     shExpMatch(url, "*propu.sh*") ||
+    shExpMatch(url, "*protomob*") ||
     shExpMatch(url, "*pubmatic*") ||
     shExpMatch(url, "*pushails*") ||
     shExpMatch(url, "*quantcount*") ||
@@ -244,6 +246,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*scorecardresearch*") ||
     shExpMatch(url, "*sextracker*") ||
     shExpMatch(url, "*sillrochester*") ||
+    shExpMatch(url, "*slickmodal*") ||
     shExpMatch(url, "*smaato*") ||
     shExpMatch(url, "*smartadserver*") ||
     shExpMatch(url, "*smartclip*") ||
@@ -321,6 +324,8 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "http*://statistic*.*") ||
     shExpMatch(url, "http*://track*-*") ||
     shExpMatch(url, "http*://track*.*") ||
+    shExpMatch(url, "http*://traffic-*") ||
+    shExpMatch(url, "http*://traffic.*") ||
     shExpMatch(url, "http*://trk*-*") ||
     shExpMatch(url, "http*://trk*.*")
         )
