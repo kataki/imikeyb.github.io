@@ -146,6 +146,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*getAd*") ||
     shExpMatch(url, "*getads*") ||
     shExpMatch(url, "*getadmiral*") ||
+    shExpMatch(url, "*qfjherc*") ||
     shExpMatch(url, "*globaltraffico*") ||
     shExpMatch(url, "*goaffmy*") ||
     shExpMatch(url, "*googleads*") ||
@@ -200,6 +201,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*mobilefuse*") ||
     shExpMatch(url, "*mobiletheory*") ||
     shExpMatch(url, "*mocean*") ||
+    shExpMatch(url, "*mol11*") ||        
     shExpMatch(url, "*mopinion*") ||
     shExpMatch(url, "*mopub*") ||
     shExpMatch(url, "*mrjb7hvcks*") ||
@@ -245,6 +247,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*smartclip*") ||
     shExpMatch(url, "*smarturl*") ||
     shExpMatch(url, "*smartyads*") ||
+    shExpMatch(url, "*socialbars*") ||
     shExpMatch(url, "*splicky*") ||
     shExpMatch(url, "*spylog*") ||
     shExpMatch(url, "*statcounter*") ||
