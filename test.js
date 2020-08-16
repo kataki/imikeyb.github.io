@@ -184,6 +184,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*mads*") ||
     shExpMatch(url, "*madsone*") ||
     shExpMatch(url, "*madvertise*") ||
+    shExpMatch(url, "*mainspotvideosfree*") ||
     shExpMatch(url, "*mdotm*") ||
     shExpMatch(url, "*medialets*") ||
     shExpMatch(url, "*medialytics*") ||
@@ -221,6 +222,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*propellerads*") ||
     shExpMatch(url, "*propu.sh*") ||
     shExpMatch(url, "*pubmatic*") ||
+    shExpMatch(url, "*pushails*") ||
     shExpMatch(url, "*quantcount*") ||
     shExpMatch(url, "*rarenok*") ||
     shExpMatch(url, "*readserver*") ||
