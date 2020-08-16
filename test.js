@@ -204,6 +204,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*onelink.me*") ||
     shExpMatch(url, "*onstunkyr*") ||
     shExpMatch(url, "*openvideoads*") ||
+    shExpMatch(url, "*outbrain*") ||
     shExpMatch(url, "*pagead*") ||
     shExpMatch(url, "*pflexads*") ||
     shExpMatch(url, "*placement=*") ||
