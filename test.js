@@ -144,11 +144,13 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*fusepowered*") ||
     shExpMatch(url, "*fwmrm*") ||
     shExpMatch(url, "*getAd*") ||
+    shExpMatch(url, "*getads*") ||
     shExpMatch(url, "*getadmiral*") ||
     shExpMatch(url, "*globaltraffico*") ||
     shExpMatch(url, "*goaffmy*") ||
     shExpMatch(url, "*googleads*") ||
     shExpMatch(url, "*googlesyndication*") ||
+    shExpMatch(url, "*googletagmanager*") ||        
     shExpMatch(url, "*googletagservices*") ||
     shExpMatch(url, "*graizoah*") ||
     shExpMatch(url, "*graph.facebook.com*") ||
@@ -161,6 +163,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*hsh51nvkrv*") ||
     shExpMatch(url, "*iadnet*") ||
     shExpMatch(url, "*icemochi*") ||
+    shExpMatch(url, "*iclickcdn*") ||        
     shExpMatch(url, "*infolinks*") ||
     shExpMatch(url, "*infopicked*") ||
     shExpMatch(url, "*inmobi*") ||
@@ -186,6 +189,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*medialytics*") ||
     shExpMatch(url, "*meowpushnot*") ||
     shExpMatch(url, "*metrics*") ||
+    shExpMatch(url, "*mirando*") ||
     shExpMatch(url, "*mobclix*") ||
     shExpMatch(url, "*mobfox*") ||
     shExpMatch(url, "*mobile-creatives*") ||
@@ -215,6 +219,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*popup*") ||
     shExpMatch(url, "*postlnk*") ||
     shExpMatch(url, "*propellerads*") ||
+    shExpMatch(url, "*propu.sh*") ||
     shExpMatch(url, "*pubmatic*") ||
     shExpMatch(url, "*quantcount*") ||
     shExpMatch(url, "*rarenok*") ||
