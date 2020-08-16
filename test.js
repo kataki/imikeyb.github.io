@@ -31,7 +31,6 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*.undertone*") ||
     shExpMatch(url, "*/ad*") ||
     shExpMatch(url, "*/adcount*") ||
-    shExpMatch(url, "*/ads/*") ||
     shExpMatch(url, "*/advertising.js*") ||
     shExpMatch(url, "*/click/*") ||
     shExpMatch(url, "*/eas?c*") ||
@@ -325,7 +324,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "http*://trk*-*") ||
     shExpMatch(url, "http*://trk*.*")
         )
-    {return "PROXY 8.8.8.8:53";}
+    {return "PROXY 0";}
 
 return "DIRECT";
 
