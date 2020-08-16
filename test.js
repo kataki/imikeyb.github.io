@@ -242,7 +242,6 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*rubiconproject*") ||
     shExpMatch(url, "*runative*") ||
     shExpMatch(url, "*rusenov*") ||
-    shExpMatch(url, "*s3.amazonaws.com/fa-production*/*") ||
     shExpMatch(url, "*scorecardresearch*") ||
     shExpMatch(url, "*sextracker*") ||
     shExpMatch(url, "*sillrochester*") ||
