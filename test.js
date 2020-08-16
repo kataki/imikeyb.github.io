@@ -145,6 +145,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*qfjherc*") ||
     shExpMatch(url, "*globaltraffico*") ||
     shExpMatch(url, "*goaffmy*") ||
+    shExpMatch(url, "*google*analytics*") ||        
     shExpMatch(url, "*googleads*") ||
     shExpMatch(url, "*googlesyndication*") ||
     shExpMatch(url, "*googletagmanager*") ||        
