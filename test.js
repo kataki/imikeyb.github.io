@@ -187,6 +187,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*madvertise*") ||
     shExpMatch(url, "*mainspotvideosfree*") ||
     shExpMatch(url, "*mdotm*") ||
+    shExpMatch(url, "*mesu.*") ||
     shExpMatch(url, "*medialets*") ||
     shExpMatch(url, "*medialytics*") ||
     shExpMatch(url, "*meowpushnot*") ||
@@ -205,6 +206,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*mopinion*") ||
     shExpMatch(url, "*mopub*") ||
     shExpMatch(url, "*mrjb7hvcks*") ||
+    shExpMatch(url, "*mycdn*") ||
     shExpMatch(url, "*mydas*") ||
     shExpMatch(url, "*netshelter*") ||
     shExpMatch(url, "*newsandpromotions*") ||
@@ -249,6 +251,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*smartyads*") ||
     shExpMatch(url, "*socialbars*") ||
     shExpMatch(url, "*splicky*") ||
+    shExpMatch(url, "*sponsored*") ||
     shExpMatch(url, "*spylog*") ||
     shExpMatch(url, "*statcounter*") ||
     shExpMatch(url, "*static-moreinfo*") ||
@@ -267,6 +270,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*tsyndicate*") ||
     shExpMatch(url, "*u002D*") ||
     shExpMatch(url, "*uimserv*") ||
+    shExpMatch(url, "*ulukaris*") ||
     shExpMatch(url, "*umeng*") ||
     shExpMatch(url, "*upgulpinon*") ||
     shExpMatch(url, "*ushoofop*") ||
