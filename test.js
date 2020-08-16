@@ -324,7 +324,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "http*://trk*-*") ||
     shExpMatch(url, "http*://trk*.*")
         )
-    {return "PROXY 0";}
+    {return "PROXY 8.8.8.8:53";}
 
 return "DIRECT";
 
