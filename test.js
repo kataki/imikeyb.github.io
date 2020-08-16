@@ -1,5 +1,5 @@
 //
-// Last Updated: 08/16/20 - 03:36 CST
+// Last Updated: 08/16/20 - 04:56 CST
 // 
 // ┏━┓┏━┳┓╋╋┏┳┓╋┏┓╋╋╋┏━┓┏━┳━┓┏━┓
 // ┃┃┗┛┃┃┗┓┏┛┃┃╋┃┃╋╋╋┗┓┗┛┏┻┓┗┛┏┛
@@ -29,7 +29,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*.media.net*") ||
     shExpMatch(url, "*.top") ||
     shExpMatch(url, "*.undertone*") ||
-    shExpMatch(url, "*/ad_*") ||
+    shExpMatch(url, "*/ad*") ||
     shExpMatch(url, "*/adcount*") ||
     shExpMatch(url, "*/ads/*") ||
     shExpMatch(url, "*/advertising.js*") ||
@@ -39,8 +39,6 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*aclk*") ||
     shExpMatch(url, "*acloudimages*") ||
     shExpMatch(url, "*acloudvideos*") ||
-    shExpMatch(url, "*ad*-*") ||
-    shExpMatch(url, "*ad*.*") ||
     shExpMatch(url, "*adap.tv*") ||
     shExpMatch(url, "*adbanner*") ||
     shExpMatch(url, "*adblade*") ||
@@ -62,8 +60,6 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*adnetwork*") ||
     shExpMatch(url, "*adnxs*") ||
     shExpMatch(url, "*adpushup*") ||
-    shExpMatch(url, "*ads*-*") ||
-    shExpMatch(url, "*ads*.*") ||
     shExpMatch(url, "*adroll*") ||
     shExpMatch(url, "*adsapi*") ||
     shExpMatch(url, "*adsatt*") ||
@@ -242,6 +238,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*rubiconproject*") ||
     shExpMatch(url, "*runative*") ||
     shExpMatch(url, "*rusenov*") ||
+    shExpMatch(url, "*s3.amazonaws.com/fa-production*/*") ||
     shExpMatch(url, "*scorecardresearch*") ||
     shExpMatch(url, "*sextracker*") ||
     shExpMatch(url, "*sillrochester*") ||
