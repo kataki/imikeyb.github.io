@@ -213,6 +213,7 @@ function FindProxyForURL(url, host)
     shExpMatch(url, "*popadscdn*") ||
     shExpMatch(url, "*popunder*") ||
     shExpMatch(url, "*popup*") ||
+    shExpMatch(url, "*postlnk*") ||
     shExpMatch(url, "*propellerads*") ||
     shExpMatch(url, "*pubmatic*") ||
     shExpMatch(url, "*quantcount*") ||
